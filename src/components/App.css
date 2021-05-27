@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto&family=Ubuntu&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html, body 
+{
+ height: 100%;
+ width: 100%;
+ margin: 0 auto;
+padding: 0px;
+background-color: #17161b;	
+}
+
+.navbar{
+    background-color: #17161b;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo{
+    height: 45px;
+    margin-right: 500px;
+}
+
+/* .navbar-brand{
+    font-size: 20px;
+    margin-right: 550px;
+} */
+
+.nav-link{
+    font-size: 16px;
+    margin: 5px;
+    color: #ccc !important;
+    font-weight: 550;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link:hover{
+    color: #e91e24 !important;
+}
+
+.nav-link-eth{
+    color: #fdbe31 !important;
+    background: #232532;
+    font-weight: bolder;
+    border-radius: 8px;
+}
+
+.active .nav-link{
+    color: #fdbe31 !important;
+    background: #232532;
+    font-weight: bolder;
+    border-radius: 8px;
+}
+
+.pea-header{
+    margin-top: 90px;
+    color: #fff;
+}
+
+.pea-dsc{
+    color: rgba(122, 133, 158, 1);
+}
+
+.deposit-btn{
+    background-color: #fdbe31;
+    padding: 10px;
+}
