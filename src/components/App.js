@@ -23,7 +23,7 @@ class App extends Component {
         const balance = await web3.eth.getBalance(accounts[0])
         this.setState({account: accounts[0], balance: balance, web3: web3})
       } else {
-        window.alert('Please login with MetaMask')
+        window.alert('Please login with MetaMask and connect to Ganache')
       }
 
       //load contracts
