@@ -23,7 +23,7 @@ class App extends Component {
         const balance = await web3.eth.getBalance(accounts[0])
         this.setState({account: accounts[0], balance: balance, web3: web3})
       } else {
-        window.alert('Please login with MetaMask and connect to Ganache')
+        window.alert('Contracts not deployed to the current network, please login with MetaMask and connect to Rinkeby Test Network')
       }
 
       //load contracts
@@ -34,11 +34,11 @@ class App extends Component {
         this.setState({token: token, dbank: dbank, dBankAddress: dBankAddress})
       } catch (e) {
         console.log('Error', e)
-        window.alert('Contracts not deployed to the current network')
+        window.alert('Contracts not deployed to the current network, please login with MetaMask and connect to Rinkeby Test Network.')
       }
 
     } else {
-      window.alert('Please install MetaMask')
+      window.alert('Contracts not deployed to the current network, please login with MetaMask and connect to Rinkeby Test Network')
     }
   }
 
